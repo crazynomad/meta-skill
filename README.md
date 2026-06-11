@@ -18,9 +18,10 @@ meta-skill/
 ## 当前内容
 
 - [`research/skill-taxonomy-and-eval-framework.md`](research/skill-taxonomy-and-eval-framework.md)
-  — Skill 分类与测评体系设计 v1:四轴分类(本体类型 / 判断密度 / 爆炸半径 / 触发方式)
-  + 五层测评金字塔(静态校验 → 触发精度 → 行为合规 → 端到端 → 生产遥测),
-  附业界标杆映射与落地顺序。
+  — Skill 分类与测评体系设计 v1.2:五轴分类(本体类型 / 判断密度 / 爆炸半径 /
+  触发方式 / 来源 provenance)+ 五层测评金字塔(静态校验 → 触发精度 → 行为合规
+  → 端到端 → 生产遥测)+ A/B 双频 + 退役协议 + 审计协议。每个版本由实测
+  与新标杆对照驱动(v1.1: skill-creator 2.0 + gstack 实测;v1.2: 官方库实测 + SkillOpt)。
 - [`research/gstack-case-study.md`](research/gstack-case-study.md)
   — gstack 案例研究(git 考古):skill 演化三阶段、四层反馈回路、preamble 编译期
   组合机制、五个标杆级实践、skill 版 SDLC 映射表。框架的主要经验来源。
