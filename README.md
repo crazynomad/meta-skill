@@ -31,6 +31,10 @@ meta-skill/
 - [`audits/gstack-2026-06.md`](audits/gstack-2026-06.md)
   — 框架首次实测:gstack 55 个 skill 全量分类,四类冠军(ship / codex /
   guard / retro)五层评测。实测发现回灌为框架 v1.1 的四条修订。
+- [`audits/anthropic-skills-2026-06.md`](audits/anthropic-skills-2026-06.md)
+  — 第二次实测:Anthropic 官方 skills 库。结论:分发制品库而非生产系统,
+  单 skill 工艺天花板(claude-api 路由算法式 description)与系统工程缺位
+  (零 CI / 零遥测)并存,与 gstack 恰好互补。产出 5 条 v1.2 候选修订。
 
 ## 可能的方向
 
